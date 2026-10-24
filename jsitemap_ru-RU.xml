@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" method="upgrade">
+	<name>JSitemap Pro - русский перевод (ru-RU)</name>
+	<packagename>jsitemap_ru-RU</packagename>
+	<version>4.31.8</version>
+	<creationDate>2026-10-24</creationDate>
+	<author>Mucronix</author>
+	<authorEmail>support@mucronix.com</authorEmail>
+	<authorUrl>https://mucronix.com</authorUrl>
+	<packager>Mucronix</packager>
+	<packagerEmail>support@mucronix.com</packagerEmail>
+	<packagerurl>https://mucronix.com</packagerurl>
+	<copyright>(C) 2026 Mucronix</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<description><![CDATA[
+<div style="font:15px/1.6 -apple-system,'Segoe UI',Roboto,sans-serif;color:#15181E;max-width:680px">
+  <div style="font:500 11px/1 ui-monospace,monospace;letter-spacing:.13em;text-transform:uppercase;color:#2348E6;padding-bottom:6px">Mucronix</div>
+  <h3 style="margin:0 0 4px;font-size:20px;font-weight:600">Русский язык для JSitemap Professional</h3>
+  <p style="margin:0 0 18px;color:#5B6472">Полный перевод компонента: панель управления, настройки, карта сайта на сайте.</p>
+  <table style="width:100%;border-collapse:collapse;font-size:14px">
+    <tr><td style="padding:7px 0;border-bottom:1px solid #E3E6EC;color:#5B6472;width:38%">Язык</td>
+        <td style="padding:7px 0;border-bottom:1px solid #E3E6EC">Русский (ru-RU)</td></tr>
+    <tr><td style="padding:7px 0;border-bottom:1px solid #E3E6EC;color:#5B6472">Часть сайта</td>
+        <td style="padding:7px 0;border-bottom:1px solid #E3E6EC">Административная и фронтальная</td></tr>
+    <tr><td style="padding:7px 0;border-bottom:1px solid #E3E6EC;color:#5B6472">Перевод для версии</td>
+        <td style="padding:7px 0;border-bottom:1px solid #E3E6EC">JSitemap Professional 4.31.8</td></tr>
+    <tr><td style="padding:7px 0;border-bottom:1px solid #E3E6EC;color:#5B6472">Переведено строк</td>
+        <td style="padding:7px 0;border-bottom:1px solid #E3E6EC">2416 из 2416</td></tr>
+    <tr><td style="padding:7px 0;border-bottom:1px solid #E3E6EC;color:#5B6472">Лицензия</td>
+        <td style="padding:7px 0;border-bottom:1px solid #E3E6EC">GPL-2.0-or-later</td></tr>
+    <tr><td style="padding:7px 0;color:#5B6472">Страница перевода</td>
+        <td style="padding:7px 0"><a href="https://mucronix.com/products/translations/jsitemap-pro-translation" target="_blank" style="color:#2348E6;text-decoration:none">mucronix.com/products/translations</a></td></tr>
+  </table>
+  <p style="margin:18px 0 0;padding:12px 15px;background:#F6F7F9;border:1px solid #E3E6EC;border-radius:8px;font-size:14px;color:#5B6472">
+    Вопросы и замечания по переводу — <a href="mailto:support@mucronix.com" style="color:#2348E6;text-decoration:none">support@mucronix.com</a>.
+    Новые версии выходят вслед за обновлениями JSitemap.
+  </p>
+  <p style="margin:14px 0 0;font-size:13px;color:#5B6472">
+    Перевод выполнен Mucronix и не связан с разработчиком JSitemap Professional.
+  </p>
+</div>]]></description>
+	<fileset>
+		<files folder="admin" target="administrator/language/ru-RU">
+			<filename>ru-RU.com_jmap.ini</filename>
+			<filename>ru-RU.com_jmap.sys.ini</filename>
+		</files>
+		<files folder="site" target="language/ru-RU">
+			<filename>ru-RU.com_jmap.ini</filename>
+		</files>
+	</fileset>
+</extension>
